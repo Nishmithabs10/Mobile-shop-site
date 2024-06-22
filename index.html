@@ -292,9 +292,14 @@
           }
           console.log(firstName,lastname,email,product,enquiery)
         
-          fetch("https://connect.pabbly.com/workflow/sendwebhookdata/IjU3NjUwNTY1MDYzMjA0MzU1MjZlNTUzYzUxMzAi_pc",{
+          fetch("https://connect.pabbly.com/workflow/sendwebhookdata/IjU3NjUwNTY1MDYzMjA0MzY1MjZmNTUzMDUxMzMi_pc", {
             method:'POST',
-            body:formdata
+            body:JSON.stringify(formdata)
+          }).then(res=>res.json()).then(res=> {
+            console.log(res)
+            alert('you have received your Enquiry successfully')
+          }).finally(function() {
+            form.reset();
           })
         })
       </script>
