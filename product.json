@@ -1,0 +1,23 @@
+{
+    "products": [
+      {
+        "image": "./image/Phone2.jpg",
+        "title": "mobile1",
+        "description": "A mobile is a handheld electronic device that combines computing capabilities with telecommunication functions.",
+        "price": "10000"
+      },
+      {
+        "image": "/image/Phone3.jpg",
+        "title": "Mobile2",
+        "description": "A mobile is a handheld electronic device that combines computing capabilities with telecommunication functions.",
+        "price":"30000"
+      },
+      {
+        "image": "./image/Phone5.jpg",
+        "title": "mobile3",
+        "description": "A mobile is a handheld electronic device that combines computing capabilities with telecommunication functions.",
+        "price": "10000"
+      }
+    ]
+  }
+  
